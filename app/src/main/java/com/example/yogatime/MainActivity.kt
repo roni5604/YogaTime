@@ -24,10 +24,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import com.example.yogatime.ui.theme.YogaTimeTheme
-
+//import com.google.firebase.database.FirebaseDatabase
 
 class MainActivity : ComponentActivity() {
     private val manager = Manager()
+//    private lateinit var database: FirebaseDatabase
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
